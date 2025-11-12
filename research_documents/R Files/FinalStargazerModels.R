@@ -1,0 +1,8 @@
+library(stargazer)
+stargazer(regress.ideal, regress.ideal2, regress.ideal3, title = "Ideal Model for Intergovernmental Transfers")
+stargazer(regress.marginvic, regress.marginvic2, regress.marginvic3, regress.pctputin3, title = "Effect of  Regional Electoral Results on Interngovernmental Transfers")
+stargazer(regress.putineither, regress.putineither2, regress.putineither3, title = "Effect of Direct Contact with Putin on Intergovernmental Transfers")
+stargazer(regress.totprot, regress.totprot2, regress.totprot3, title = "Effect of Regional Protests on Intergovernmental Transfers")
+stargazer(regress.chggovtrn, regress.chgpctdep, title = "Effect of Regional Protests on Intergovernmental Transfers(2)")
+require(stargazer)
+stargazer(regress.unified, regress.unified2, title = "Unified Regression of Previous Determinants on Intergovernmental Transfers")
