@@ -1,0 +1,66 @@
+\documentclass[12pt]{article}
+\usepackage{verbatim,color,relsize,amsmath,amsthm,graphicx,caption,booktabs,multirow,adjustbox,appendix,bm,array,bbm,mathdots}
+\usepackage[margin=1cm]{geometry}
+\usepackage{bbm}
+
+\begin{document}
+\begin{table}[!htbp] \centering 
+\renewcommand\thetable{4}
+  \caption{Electoral Determinants of Interngovernmental Transfers} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & \multicolumn{4}{c}{scale(GovTrn2013)} \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ marginvic & $-$0.654 & $-$0.528 & $-$0.724 &  \\ 
+  & (0.754) & (0.768) & (0.631) &  \\ 
+  & & & & \\ 
+ pctputin &  &  &  & $-$1.164 \\ 
+  &  &  &  & (0.925) \\ 
+  & & & & \\ 
+ IBE &  & $-$0.138 & $-$0.080 & $-$0.085 \\ 
+  &  & (0.171) & (0.139) & (0.139) \\ 
+  & & & & \\ 
+ ITP &  & 0.030 & $-$0.037 & $-$0.041 \\ 
+  &  & (0.213) & (0.174) & (0.173) \\ 
+  & & & & \\ 
+ pop &  & $-$0.000 & 0.00000 & 0.00000 \\ 
+  &  & (0.00000) & (0.00000) & (0.00000) \\ 
+  & & & & \\ 
+ poverty &  & 0.001 & 0.001 & 0.001 \\ 
+  &  & (0.032) & (0.026) & (0.026) \\ 
+  & & & & \\ 
+ pctcity12 &  & 1.921$^{**}$ & 0.930 & 0.952 \\ 
+  &  & (0.896) & (0.948) & (0.945) \\ 
+  & & & & \\ 
+ GRP2012 &  & 0.00000 & 0.00000 & 0.00000 \\ 
+  &  & (0.00000) & (0.00000) & (0.00000) \\ 
+  & & & & \\ 
+ moscowdummy &  &  & 5.212$^{***}$ & 5.182$^{***}$ \\ 
+  &  &  & (0.848) & (0.846) \\ 
+  & & & & \\ 
+ ncaucusdummy &  &  & 0.420 & 0.416 \\ 
+  &  &  & (0.388) & (0.387) \\ 
+  & & & & \\ 
+ republicdummy &  &  & $-$0.116 & $-$0.115 \\ 
+  &  &  & (0.261) & (0.260) \\ 
+  & & & & \\ 
+ Constant & 0.306 & $-$1.061 & $-$0.412 & $-$0.009 \\ 
+  & (0.370) & (0.818) & (0.822) & (0.959) \\ 
+  & & & & \\ 
+\hline \\[-1.8ex] 
+Observations & 80 & 80 & 80 & 80 \\ 
+R$^{2}$ & 0.010 & 0.114 & 0.443 & 0.445 \\ 
+Adjusted R$^{2}$ & $-$0.003 & 0.028 & 0.362 & 0.364 \\ 
+Residual Std. Error & 1.002 (df = 78) & 0.986 (df = 72) & 0.799 (df = 69) & 0.797 (df = 69) \\ 
+F Statistic & 0.752 (df = 1; 78) & 1.326 (df = 7; 72) & 5.479$^{***}$ (df = 10; 69) & 5.526$^{***}$ (df = 10; 69) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table}
+\end{document}
